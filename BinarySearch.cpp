@@ -70,3 +70,9 @@ void displayDataTerurut()
     cout << endl;
 }
 
+
+void binarySearch()
+{
+
+}
+
