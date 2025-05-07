@@ -52,3 +52,21 @@ void bubbleSortArray()
         turn = turn + 1; // step 4
     } while (turn <= nPanjang - 1); // step 5
 }
+
+void displayDataTerurut()
+{
+    cout << endl;
+    cout << "================================" << endl;
+    cout << "Elemen Array yang telah tersusun" << endl;
+    cout << "================================" << endl;
+    for (int j = 0; j < nPanjang; j++)
+    {
+        cout << element[j];
+        if (j < nPanjang - 1)
+        {
+            cout << " --> ";
+        }
+    }
+    cout << endl;
+}
+
